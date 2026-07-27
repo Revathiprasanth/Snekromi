@@ -1,0 +1,22 @@
+body{
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #1f1f1f;
+}
+
+canvas{ 
+    border:3px solid rgb(244, 247, 247);
+    box-shadow: 0 0 12px white;
+}
+
+@font-face{
+    font-family:'GameFont';
+    src: url('PixelOperator-Bold.ttf') format('truetype');
+}
+
+body {
+    font-family: "GameFont", sans-serif;
+}
